@@ -1,0 +1,24 @@
+{
+  "name": "podcatchuponline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/degoedel/PodCatchupOnLine.git"
+  },
+  "author": "Damien Galban",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/degoedel/PodCatchupOnLine/issues"
+  },
+  "homepage": "https://github.com/degoedel/PodCatchupOnLine#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "mongoose": "^4.1.6",
+    "passport": "^0.3.0"
+  }
+}
