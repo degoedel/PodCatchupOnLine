@@ -18,9 +18,10 @@
   "homepage": "https://github.com/degoedel/PodCatchupOnLine#readme",
   "dependencies": {
     "express": "^4.13.3",
+    "ejs" : "^0.8.5", 
     "mongoose": "^4.1.6",
     "passport": "^0.3.0",
-    "passport-local" : "^0.1.6",    
+    "passport-local" : "^1.0.0",    
     "passport-facebook" : "^1.0.2", 
     "passport-twitter" : "^1.0.2",  
     "passport-google-oauth" : "^0.1.5",

@@ -6,6 +6,8 @@ var LocalStrategy   = require('passport-local').Strategy;
 // load up the user model
 var User            = require('../app/models/user');
 
+var process = require('process');
+
 // expose this function to our app using module.exports
 module.exports = function(passport) {
 
