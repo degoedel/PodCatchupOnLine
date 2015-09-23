@@ -1,7 +1,11 @@
 // app/routes.js
+var express = require('express');
+
 module.exports = function(app, passport) {
 
-
+    var api = express.Router();
+    app.use('/api', api);
+    
     // =====================================
     // LOGIN ===============================
     // =====================================
@@ -9,7 +13,7 @@ module.exports = function(app, passport) {
     app.get('/login', function(req, res) {
 
         // render the page and pass in any flash data if it exists
-        res.render('login.ejs', { message: req.flash('loginMessage') }); 
+        res.render('login.ejs', {message: req.flash('loginMessage') }); 
     });
 
     // process the login form
